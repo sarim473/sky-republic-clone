@@ -1,0 +1,248 @@
+@media only screen and (max-width: 900px) {
+  .container-inner {
+    padding: 0 10.6%;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  header .h-wrap {
+    padding: 11px 0;
+  }
+
+  header .h-wrap #second>ul {
+    display: none;
+  }
+
+  header .h-wrap #second>.cta {
+    display: none;
+  }
+
+  header .h-wrap #second>#offcanvas-btn {
+
+    display: block;
+  }
+
+  header .h-wrap #first .logo {
+    width: 200px;
+  }
+
+  #hero{
+    height: 80vh;
+  }
+
+  #hero .hero-text-wrap {
+    margin-top: 200px;
+    padding: 0 10px;
+  }
+
+  #hero .hero-text-wrap h1 {
+    font-size: 30px;
+    width: 90%;
+  }
+  
+  #clients .c-wrap ul {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+  }
+
+  #clients .c-wrap2>h2 {
+    width: 100%;
+
+  }
+
+  #clients .c-wrap2>p {
+    width: 100%;
+  }
+
+  #tabs .tabs-text-wrap>p {
+    width: 100%;
+  }
+
+  #optimize .ot-heading p {
+    width: 100%;
+  }
+
+  #optimize .ot-list-1 .ot-1-item .ot-text-wrap {
+    padding: 0 7%;
+  }
+
+  #blockchain .blc-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #blockchain .blc-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #blockchain .blc-left .blc-text h2 {
+    text-align: center;
+  }
+
+  #blockchain .blc-left .blc-text p {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container-inner{
+    padding: 0;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  header .h-wrap {
+    padding: 11px 0;
+  }
+
+  header .h-wrap #second>ul {
+    display: none;
+  }
+
+  header .h-wrap #second>.cta {
+    display: none;
+  }
+
+  header .h-wrap #second>#offcanvas-btn {
+
+    display: block;
+  }
+
+  header .h-wrap #first .logo {
+    width: 130px;
+  }
+
+  #hero .hero-text-wrap {
+    margin-top: 200px;
+    padding: 0 10px;
+  }
+
+  #hero .hero-text-wrap h1 {
+    font-size: 30px;
+    width: 90%;
+  }
+
+  #clients .c-wrap ul {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+
+  #clients .c-wrap2>h2 {
+    font-size: 23px;
+    line-height: normal;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  #clients .c-wrap2>p {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  #process {
+    padding: 0 20px;
+  }
+
+  #tabs .tabs-text-wrap>h3 {
+    font-size: 25px;
+  }
+
+  #tabs .tabs-text-wrap {
+    padding: 0 20px;
+  }
+
+  #tabs .tabs-text-wrap>p {
+    width: 100%;
+  }
+
+  #optimize .ot-heading {
+    padding: 0 20px;
+  }
+
+  #optimize .ot-heading h3 {
+    font-size: 25px;
+  }
+
+  #optimize .ot-heading p {
+    width: 100%;
+  }
+
+  #optimize .ot-list-1 {
+    padding: 0 20px;
+  }
+
+  #optimize .ot-list-1 .ot-1-item .ot-text-wrap {
+    padding: 0 20px;
+  }
+
+
+  #optimize .ot-list-1 .ot-1-item .ot-text-wrap h3 {
+    padding-top: 0;
+  }
+
+  #optimize .ot-list-2 {
+    padding: 0 20px;
+  }
+
+  #testimonial .t-heading {
+    padding: 0 20px;
+  }
+
+  #testimonial .t-heading h3 {
+    font-size: 25px;
+  }
+
+  #testimonial .t-heading p {
+    width: 100%;
+  }
+
+  #zPass {
+    padding: 0 20px;
+  }
+
+  #zPass .z-heading {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #zPass .z-heading h2 {
+    font-size: 25px;
+  }
+
+  #blockchain .blc-wrap {
+    flex-wrap: wrap;
+  }
+
+  #blockchain .blc-left {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #blockchain .blc-left .blc-text h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #blockchain .blc-left .blc-text p {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
